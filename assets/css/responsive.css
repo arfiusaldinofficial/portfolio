@@ -1,0 +1,315 @@
+/*
+Template Name: Deyn - Personal Portfolio Template
+Version : 1.0
+Author  :PixelsMove
+
+*/
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  /*responsive navbar*/
+  .navbar-toggler {
+    background: #fff;
+    padding: 5px 10px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border: none;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+    -webkit-box-shadow: 0 15px 20px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 15px 20px 0 rgb(0 0 0 / 10%);
+    padding: 5px 12px;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-collapse {
+    padding: 12px;
+  }
+
+  .header .navbar-nav .nav-item a.active {
+    color: #081828;
+  }
+
+  .header .navbar-area .navbar-nav .nav-item a {
+    padding: 10px;
+  }
+
+  .navbar-nav .nav-item a {
+    color: #081828;
+    border: 1px solid #eee;
+    display: block;
+    border-radius: 4px;
+    padding: 0;
+    padding: 8px 10px;
+    font-size: 13px;
+    transition: 0.3s;
+  }
+
+  .navbar-nav .nav-item a:hover {
+    color: #000;
+  }
+
+  .navbar-nav {
+    max-height: 280px;
+    overflow-y: scroll;
+  }
+
+
+  /*STRAT CSS AFTER MENU*/
+
+  .hero-text h2 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.hero-text p {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+a.btn-hero
+{
+  margin-top: 15px;
+}
+
+.about-text h2 {
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
+
+.about-image {
+    margin-top: 30px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+}
+
+.single-service .service-icon i {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.single-service {
+    margin-bottom: 30px;
+}
+
+.portfolio-box{
+  margin-bottom: 30px;
+}
+
+.cta-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cta-text h2 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.cta-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.single-blog {
+    margin-bottom: 30px;
+}
+
+.contact-info-box {
+    margin-bottom: 30px;
+}
+
+.footer-info p{
+  padding: 0;
+}
+
+.footer-social {
+    margin-top: 30px;
+}
+
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .navbar-toggler {
+    background: #fff;
+    padding: 5px 10px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border: none;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+    -webkit-box-shadow: 0 15px 20px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 15px 20px 0 rgb(0 0 0 / 10%);
+    padding: 5px 12px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-collapse {
+    padding: 12px;
+  }
+
+  .header .navbar-nav .nav-item a.active {
+    color: #081828;
+  }
+
+  .header .navbar-area .navbar-nav .nav-item a {
+    padding: 10px;
+  }
+
+  .navbar-nav .nav-item a {
+    color: #081828;
+    border: 1px solid #eee;
+    display: block;
+    border-radius: 4px;
+    padding: 0;
+    padding: 8px 10px;
+    font-size: 13px;
+    transition: 0.3s;
+  }
+
+  button.navbar-toggler {
+    margin-right: 15px;
+  }
+
+  .navbar-nav .nav-item a:hover {
+    color: #000;
+  }
+
+  .navbar-nav {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  
+  /*STRAT CSS AFTER MENU*/
+
+.hero-text h2 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.hero-text p {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+a.btn-hero
+{
+  margin-top: 15px;
+}
+
+.about-text h2 {
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
+
+.about-image {
+    margin-top: 30px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+}
+
+.single-service .service-icon i {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.single-service {
+    margin-bottom: 30px;
+}
+
+.portfolio-box{
+  margin-bottom: 30px;
+}
+
+.cta-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cta-text h2 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.cta-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.single-blog {
+    margin-bottom: 30px;
+}
+
+.contact-info-box {
+    margin-bottom: 30px;
+}
+
+.footer-info p{
+  padding: 0;
+}
+
+.footer-social {
+    margin-top: 30px;
+}
+
+
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
